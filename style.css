@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Kodchasan&display=swap');
+body{
+  background: url('img/bg.jpg');
+  background-repeat: repeat-y;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+}
+#showdiv,
+#showdivList{
+  display: none;
+}
+
+.grid{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+
+.inside_grid{
+  flex-basis: 25%;
+  height: 450px;
+  width: 350px;
+  margin: 20px; 
+  border-radius: 10px; 
+  background: #4e47478e;
+}
+
+.img_class{
+  width: 300px;
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+}
+
+.pizza_name{
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #f8f546;
+}
+.pizza_calories,
+.pizza_price,
+.pizza_composition{
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+span{
+  color: #f8f546;
+  
+}
+li {
+  list-style-type: none; /* Убираем маркеры */
+  display: inline;
+  padding-left: 3px;
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+ }
+ ul {
+  margin: 10px; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+  text-align: center;
+ }
+strong{
+  color: #f8f546;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+}
+  
+.btn_grig{
+  display: inline-block;
+  margin: 2% 0 2% 15%;
+  width: 7em;
+  height: 7em;
+  font-family:'Kodchasan', sans-serif;
+  font-size: 20px; 
+  color: #000000;
+  opacity: 0.8;
+  font-weight: 800;
+  text-decoration: none;
+  user-select: none; 
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.btn_grig:hover{
+  background: #c5bfbf8e; 
+}
+.second_con{
+  width: 100%;
+}
+.container_div{
+  display: flex;
+  flex-wrap: wrap;
+}
+.pizza_list{
+  justify-content: center;
+  margin: 1% 0 0 10%;
+  width: 550px;
+  border-radius: 10px; 
+  background: #4e47478e;
+}
+.li_desc{
+  list-style-type: none;
+}
+.p_desc{
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  
+}
+
+
